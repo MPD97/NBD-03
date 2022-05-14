@@ -31,3 +31,24 @@
 	RETURN movie
 	
 9. (za 0.2pkt) Zestaw zapytań powodujących uzupełnienie bazy danych o film Captain America: The First Avenger wraz z uzupełnieniem informacji o reżyserze, scenarzystach i odtwórcach głównych ról (w oparciu o skrócone informacje z IMDB - http://www.imdb.com/title/tt0458339/) + zapytanie pokazujące dodany do bazy film wraz odtwórcami głównych ról, scenarzystą i reżyserem. Plik SVG ma pokazywać wynik ostatniego zapytania.
+	CREATE (movie:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'When patriots become heroes'})
+	CREATE (director:Person {name:'Joe Johnston', born:1950})
+	CREATE (writer1:Person {name:'Christopher Markus', born:1970})
+	CREATE (writer2:Person {name:'Stephen McFeely', born:1970})
+	CREATE (writer3:Person {name:'Joe Simon', born:1913})
+	CREATE (actor1:Person {name:'Chris Evans', born:1981})
+	CREATE (actor2:Person {name:'Samuel L. Jackson', born:1948 })
+	CREATE (actor3:Person {name:'Sebastian Stan', born:1982 })
+	CREATE (actor4:Person {name:'Dominic Cooper', born:1978 })
+	CREATE
+		(director)-[:DIRECTED]->(movie),
+		(writer1)-[:WROTE]->(movie),
+		(writer2)-[:WROTE]->(movie),
+		(writer3)-[:WROTE]->(movie),
+		(actor1)-[:ACTED_IN {roles:['Captain America']}]->(movie),
+		(actor2)-[:ACTED_IN {roles:['Nick Fury']}]->(movie),
+		(actor3)-[:ACTED_IN {roles:['Sebastian Stan: James Buchanan Bucky Barnes']}]->(movie),
+		(actor4)-[:ACTED_IN {roles:['Howard Stark']}]->(movie)
+		
+	MATCH (movie:Movie { title: 'Captain America: The First Avenger' })<-[role]-(person) 
+	RETURN movie, role, person
