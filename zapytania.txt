@@ -11,9 +11,16 @@
 	MATCH (n:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(a) RETURN a
 	
 5. Wszystkie filmy osób, które grały w Matrix
+	MATCH (m:Movie)<-[:ACTED_IN]-(person) 
+	WHERE (person)-[:ACTED_IN]->(:Movie { title: "The Matrix" })
+	RETURN m, person
 
 6. Listę aktorów (aktor = osoba, która grała przynajmniej w jednym filmie) wraz z ilością filmów, w których grali
-
+	MATCH (actor:Person)-[:ACTED_IN]->(m) 
+	WITH actor, count(m) as total 
+	WHERE total > 0 
+	RETURN actor, total
+	
 7. Listę osób, które napisały scenariusz filmu, które wyreżyserowały wraz z tytułami takich filmów (koniunkcja – ten sam autor scenariusza i reżyser)
 
 8. Listę filmów, w których grał zarówno Hugo Weaving jak i Keanu Reeves
