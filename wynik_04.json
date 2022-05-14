@@ -1,205 +1,188 @@
-﻿[
-  {
+﻿[{
     "a": {
-"identity": 71,
-"labels": [
+      "identity": 71,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1956,
-"name": "Tom Hanks"
+      "properties": {
+        "born": 1956,
+        "name": "Tom Hanks"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 107,
-"labels": [
+      "identity": 107,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1949,
-"name": "Jim Broadbent"
+      "properties": {
+        "born": 1949,
+        "name": "Jim Broadbent"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 106,
-"labels": [
+      "identity": 106,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1966,
-"name": "Halle Berry"
+      "properties": {
+        "born": 1966,
+        "name": "Halle Berry"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 119,
-"labels": [
+      "identity": 119,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1940,
-"name": "John Hurt"
+      "properties": {
+        "born": 1940,
+        "name": "John Hurt"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 118,
-"labels": [
+      "identity": 118,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1946,
-"name": "Stephen Rea"
+      "properties": {
+        "born": 1946,
+        "name": "Stephen Rea"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 117,
-"labels": [
+      "identity": 117,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1981,
-"name": "Natalie Portman"
+      "properties": {
+        "born": 1981,
+        "name": "Natalie Portman"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 120,
-"labels": [
+      "identity": 120,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Ben Miles"
+      "properties": {
+        "born": 1967,
+        "name": "Ben Miles"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 3,
-"labels": [
+      "identity": 3,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1961,
-"name": "Laurence Fishburne"
+      "properties": {
+        "born": 1961,
+        "name": "Laurence Fishburne"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 2,
-"labels": [
+      "identity": 2,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Carrie-Anne Moss"
+      "properties": {
+        "born": 1967,
+        "name": "Carrie-Anne Moss"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 1,
-"labels": [
+      "identity": 1,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1964,
-"name": "Keanu Reeves"
+      "properties": {
+        "born": 1964,
+        "name": "Keanu Reeves"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 3,
-"labels": [
+      "identity": 3,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1961,
-"name": "Laurence Fishburne"
+      "properties": {
+        "born": 1961,
+        "name": "Laurence Fishburne"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 2,
-"labels": [
+      "identity": 2,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Carrie-Anne Moss"
+      "properties": {
+        "born": 1967,
+        "name": "Carrie-Anne Moss"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 1,
-"labels": [
+      "identity": 1,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1964,
-"name": "Keanu Reeves"
+      "properties": {
+        "born": 1964,
+        "name": "Keanu Reeves"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 8,
-"labels": [
+      "identity": 8,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1978,
-"name": "Emil Eifrem"
+      "properties": {
+        "born": 1978,
+        "name": "Emil Eifrem"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 3,
-"labels": [
+      "identity": 3,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1961,
-"name": "Laurence Fishburne"
+      "properties": {
+        "born": 1961,
+        "name": "Laurence Fishburne"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 2,
-"labels": [
+      "identity": 2,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Carrie-Anne Moss"
+      "properties": {
+        "born": 1967,
+        "name": "Carrie-Anne Moss"
       }
     }
-  },
-  {
+  }, {
     "a": {
-"identity": 1,
-"labels": [
+      "identity": 1,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1964,
-"name": "Keanu Reeves"
+      "properties": {
+        "born": 1964,
+        "name": "Keanu Reeves"
       }
     }
   }

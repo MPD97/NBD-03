@@ -1,121 +1,111 @@
-﻿[
-  {
+﻿[{
     "d": {
-"identity": 108,
-"labels": [
+      "identity": 108,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1965,
-"name": "Tom Tykwer"
+      "properties": {
+        "born": 1965,
+        "name": "Tom Tykwer"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 6,
-"labels": [
+      "identity": 6,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 5,
-"labels": [
+      "identity": 5,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Lilly Wachowski"
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 25,
-"labels": [
+      "identity": 25,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "James Marshall"
+      "properties": {
+        "born": 1967,
+        "name": "James Marshall"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 6,
-"labels": [
+      "identity": 6,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 5,
-"labels": [
+      "identity": 5,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Lilly Wachowski"
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 6,
-"labels": [
+      "identity": 6,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 5,
-"labels": [
+      "identity": 5,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Lilly Wachowski"
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 6,
-"labels": [
+      "identity": 6,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
       }
     }
-  },
-  {
+  }, {
     "d": {
-"identity": 5,
-"labels": [
+      "identity": 5,
+      "labels": [
         "Person"
       ],
-"properties": {
-"born": 1967,
-"name": "Lilly Wachowski"
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
       }
     }
   }
