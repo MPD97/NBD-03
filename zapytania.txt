@@ -5,7 +5,8 @@
 	MATCH (n:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m) RETURN n,m
 
 3. Reżyserzy filmów, w których grał Hugo Weaving
-
+	MATCH (n:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m)<-[:DIRECTED]-(d) RETURN d
+	
 4. Wszystkie osoby, z którymi Hugo Weaving grał w tych samych filmach
 
 5. Wszystkie filmy osób, które grały w Matrix
